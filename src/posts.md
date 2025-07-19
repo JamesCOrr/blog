@@ -1,9 +1,10 @@
 ---
+title: Posts
 layout: layout.html
-title: Home
+date: 2025-07-19
 ---
 
-<h2>Articles</h2>
+<h2>Posts</h2>
 {% for post in collections.post %}
     <div class="post-preview">
         <h3><a href="{{ post.url }}">{{ post.data.title }}</a></h3>
