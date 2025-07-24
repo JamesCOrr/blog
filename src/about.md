@@ -1,15 +1,18 @@
 ---
-title: about
+title: About Me
 layout: layout.html
 
 ---
+<img src="/_img/infosec_headshot.jpg" alt="james-orr-headshot" class="img-headshot flex-col-2" />
+<br>
+
 <div class="column-text">
 
 Hey, I’m James Orr. I’m a senior full stack engineer who loves mentoring, building cool stuff, and helping teams grow.
 
 <br>
 
-I’ve worked across the stack in fast paced startup environments and large enterprise systems, building green field projects and maintaining legacy systems. Along the way, I found that what I enjoy most isn’t just writing code — it’s helping other engineers grow. Whether it’s through mentoring, pair programming, or design review meetings, I enjoy being someone teammates can rely on.
+I’ve worked across the stack in fast paced startup environments and large enterprise systems, building green field projects and maintaining legacy systems. Along the way, I found that what I enjoy most isn’t just writing code - it’s helping other engineers grow. Whether it’s through mentoring, pair programming, or design review meetings, I enjoy being someone teammates can rely on.
 
 
 <br>

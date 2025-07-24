@@ -126,6 +126,12 @@ h3 {
     color: #666;
     line-height: 1.7;
     margin-top: 1rem;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 
 /* Individual post content */
@@ -258,14 +264,21 @@ a:focus, button:focus {
 }
 
 .img-404 {
-    width: 500px;
-    height: 600px;
+    width: 20rem;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+.img-headshot {
+    width: 40rem;
+    height: 426.66px;
     display: block;
     margin: 0 auto;
 }
 
 .column-text {
-    width: 500px;
+    width: 40rem;
     text-align: left;
     margin: 0 auto;
     align-items: center;
